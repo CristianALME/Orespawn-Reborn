@@ -9,6 +9,7 @@ import { initializeAttributeEffects } from "./systems/attributeEffects.js";
 import { initializeKillRewards } from "./systems/rewards.js";
 
 import { initializeRecipeDiscovery } from "./systems/recipeDiscovery.js";
+import { initializeCraftingStations } from "./systems/craftingStations.js";
 
 // ======================================
 // ORESPAWN REBORN - INICIALIZACIÓN
@@ -26,3 +27,4 @@ initializeAdventurerBook();
 
 // MÓDULO 2
 initializeRecipeDiscovery();
+initializeCraftingStations();
