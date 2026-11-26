@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "orespawn:fluorite",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "fluorite",
+      "minecraft:display_name": {
+        "value": "Fluorita"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

@@ -15,6 +15,43 @@
     },
     "or_arcane_altar": {
       "textures": "textures/blocks/or_arcane_altar"
+    },
+    "orespawn_rose_quartz_ore": {
+      "textures": "textures/blocks/rose_quartz_ore"
+    },
+    "orespawn_fluorite_ore": {
+      "textures": "textures/blocks/fluorite_ore"
+    },
+    "orespawn_malachite_ore": {
+      "textures": "textures/blocks/malachite_ore"
+    },
+    "orespawn_jade_ore": {
+      "textures": "textures/blocks/jade_ore"
+    },
+    "orespawn_topaz_ore": {
+      "textures": "textures/blocks/topaz_ore"
+    },
+    "orespawn_sapphire_ore": {
+      "textures": "textures/blocks/sapphire_ore"
+    },
+    "orespawn_ruby_ore": {
+      "textures": "textures/blocks/ruby_ore"
+    },
+    "orespawn_aquamarine_ore": {
+      "textures": "textures/blocks/aquamarine_ore"
+    },
+    "orespawn_alexandrite_ore": {
+      "textures": "textures/blocks/alexandrite_ore"
+    },
+    "orespawn_black_opal_ore": {
+      "textures": "textures/blocks/black_opal_ore"
+    },
+    "orespawn_mithril_ore": {
+      "textures": "textures/blocks/mithril_ore"
+    },
+    "orespawn_adamantium_ore": {
+      "textures": "textures/blocks/adamantium_ore"
     }
   }
 }
+

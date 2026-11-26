@@ -1,8 +1,10 @@
+
 import { system } from "@minecraft/server";
 import { ActionFormData } from "@minecraft/server-ui";
 
 import { getAllRecipes, getRecipeStatus } from "./crafting.js";
 import { getDiscoveredRecipes } from "./recipeDiscovery.js";
+import { openProcessingStation } from "./processingStations.js";
 
 const STATIONS = {
     general_forge: {
@@ -32,9 +34,13 @@ function showStation(player, stationId) {
     if (!station) return;
 
     const discovered = getDiscoveredRecipes(player);
+
     const recipes = getAllRecipes().filter(recipe =>
-        recipe.station === station.name && discovered.includes(recipe.id)
+        recipe.station === station.name &&
+        discovered.includes(recipe.id)
     );
+
+    const hasProcessing = stationId === "general_forge";
 
     const form = new ActionFormData()
         .title(`§6§l${station.name.toUpperCase()}`)
@@ -50,14 +56,28 @@ function showStation(player, stationId) {
         form.button(`§f${recipe.name}\n§7${recipe.rarity}`);
     }
 
+    if (hasProcessing) {
+        form.button("§bProcesar materiales\n§7Fundir y transformar recursos");
+    }
+
     form.button("§cCerrar");
 
     form.show(player).then(response => {
         if (response.canceled || response.selection === undefined) return;
 
         if (response.selection < recipes.length) {
-            showStationRecipe(player, stationId, recipes[response.selection]);
+            showStationRecipe(
+                player,
+                stationId,
+                recipes[response.selection]
+            );
+            return;
         }
+
+        if (hasProcessing && response.selection === recipes.length) {
+            openProcessingStation(player, station.name);
+        }
+
     }).catch(error => {
         console.warn(`[Orespawn Reborn] Error abriendo estación: ${error}`);
     });
@@ -73,10 +93,14 @@ function showStationRecipe(player, stationId, recipe) {
 
     for (const ingredient of status.ingredients) {
         const ready = ingredient.missing === 0;
+
         body += `${ready ? "§a✓" : "§c✗"} §f${ingredient.name}\n`;
         body += `§7Tienes ${ingredient.owned} / ${ingredient.amount}`;
 
-        if (!ready) body += ` §c(Faltan ${ingredient.missing})`;
+        if (!ready) {
+            body += ` §c(Faltan ${ingredient.missing})`;
+        }
+
         body += "\n\n";
     }
 
@@ -90,7 +114,9 @@ function showStationRecipe(player, stationId, recipe) {
         .button("§eVolver a la estación");
 
     form.show(player).then(response => {
-        if (!response.canceled) showStation(player, stationId);
+        if (!response.canceled) {
+            showStation(player, stationId);
+        }
     }).catch(error => {
         console.warn(`[Orespawn Reborn] Error mostrando receta: ${error}`);
     });
@@ -106,6 +132,7 @@ export function initializeCraftingStations() {
                     if (!player) return;
 
                     const stationId = componentParameters?.params?.station;
+
                     system.run(() => showStation(player, stationId));
                 }
             }

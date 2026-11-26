@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "orespawn:malachite_ore",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "orespawn_malachite_ore",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:map_color": "#27865B",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:loot": "loot_tables/blocks/malachite_ore.json"
+    }
+  }
+}
