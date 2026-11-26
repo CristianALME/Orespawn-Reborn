@@ -1,0 +1,18 @@
+
+{
+  "format_version": 2,
+  "header": {
+    "name": "Orespawn Reborn RP",
+    "description": "Modelos, texturas, sonidos y animaciones",
+    "uuid": "c9f5346c-6613-42fb-b6f1-41f24f233b65",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "65c3536e-1ca1-427b-a976-a4269841d172",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+
+{
+  "format_version": 2,
+  "header": {
+    "name": "Orespawn Reborn BP",
+    "description": "Sistema RPG, criaturas, magia y combate",
+    "uuid": "589fba99-349a-4d4e-a067-75b71ce3b756",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "afd70e12-7328-4858-951f-f5689f30864e",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c22d0d83-0b78-4f29-9862-5ac8eddfce43",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c9f5346c-6613-42fb-b6f1-41f24f233b65",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.11.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.3.0"
+    }
+    
+  ]
+}
+

@@ -1,0 +1,28 @@
+
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "orespawn:adventurer_book",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Libro del Aventurero"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "orespawn:adventurer_book"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.1,
+        "movement_modifier": 1.0
+      },
+      "orespawn:open_adventurer_book": {}
+    }
+  }
+}

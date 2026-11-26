@@ -1,0 +1,20 @@
+{
+  "resource_pack_name": "Orespawn Reborn",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "or_forge_general": {
+      "textures": "textures/blocks/or_forge_general"
+    },
+    "or_weaponsmith_table": {
+      "textures": "textures/blocks/or_weaponsmith_table"
+    },
+    "or_armor_station": {
+      "textures": "textures/blocks/or_armor_station"
+    },
+    "or_arcane_altar": {
+      "textures": "textures/blocks/or_arcane_altar"
+    }
+  }
+}

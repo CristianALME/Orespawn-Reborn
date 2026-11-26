@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "orespawn:armor_station",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.orespawn.armor_station",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "or_armor_station",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.orespawn.armor_station",
+        "material_instances": {
+          "*": {
+            "texture": "or_armor_station",
+            "render_method": "opaque"
+          }
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10.0
+      },
+      "minecraft:light_emission": 0,
+      "orespawn:open_station": {
+        "station": "armor_station"
+      },
+      "minecraft:loot": "loot_tables/blocks/armor_station.json"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "orespawn:arcane_altar",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.orespawn.arcane_altar",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "or_arcane_altar",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.orespawn.arcane_altar",
+        "material_instances": {
+          "*": {
+            "texture": "or_arcane_altar",
+            "render_method": "opaque"
+          }
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 10.0
+      },
+      "minecraft:light_emission": 5,
+      "orespawn:open_station": {
+        "station": "arcane_altar"
+      },
+      "minecraft:loot": "loot_tables/blocks/arcane_altar.json"
+    }
+  }
+}

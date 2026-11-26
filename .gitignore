@@ -1,0 +1,17 @@
+# Archivos temporales
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencias
+node_modules/
+
+# Paquetes exportados
+*.mcaddon
+*.mcpack
+
+# Copias comprimidas
+*.zip
+
+# Carpetas de compilación
+builds/
