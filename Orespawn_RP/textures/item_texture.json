@@ -4,6 +4,57 @@
   "texture_data": {
     "orespawn:adventurer_book": {
       "textures": "textures/items/adventurer_book"
+    },
+    "rose_quartz": {
+      "textures": "textures/items/rose_quartz"
+    },
+    "fluorite": {
+      "textures": "textures/items/fluorite"
+    },
+    "malachite": {
+      "textures": "textures/items/malachite"
+    },
+    "jade": {
+      "textures": "textures/items/jade"
+    },
+    "topaz": {
+      "textures": "textures/items/topaz"
+    },
+    "mithril_ingot": {
+      "textures": "textures/items/mithril_ingot"
+    },
+    "sapphire": {
+      "textures": "textures/items/sapphire"
+    },
+    "ruby": {
+      "textures": "textures/items/ruby"
+    },
+    "aquamarine": {
+      "textures": "textures/items/aquamarine"
+    },
+    "alexandrite": {
+      "textures": "textures/items/alexandrite"
+    },
+    "black_opal": {
+      "textures": "textures/items/black_opal"
+    },
+    "adamantium_ingot": {
+      "textures": "textures/items/adamantium_ingot"
+    },
+    "vibranium_ingot": {
+      "textures": "textures/items/vibranium_ingot"
+    },
+    "void_crystal": {
+      "textures": "textures/items/void_crystal"
+    },
+    "chaos_material": {
+      "textures": "textures/items/chaos_material"
+    },
+    "raw_mithril": {
+      "textures": "textures/items/raw_mithril"
+    },
+    "raw_adamantium": {
+      "textures": "textures/items/raw_adamantium"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "orespawn:rose_quartz_ore_feature"
+    },
+    "count": 5,
+    "replace_rules": [
+      {
+        "places_block": "orespawn:rose_quartz_ore",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:granite",
+          "minecraft:diorite",
+          "minecraft:andesite",
+          "minecraft:tuff",
+          "minecraft:deepslate"
+        ]
+      }
+    ]
+  }
+}
