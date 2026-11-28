@@ -1,3 +1,4 @@
+
 {
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
@@ -7,36 +8,25 @@
     },
     "conditions": {
       "placement_pass": "underground_pass",
-      "minecraft:biome_filter": [
-        {
-          "test": "has_biome_tag",
-          "operator": "==",
-          "value": "forest"
-        }
-      ]
+      "minecraft:biome_filter": {
+        "test": "has_biome_tag",
+        "operator": "==",
+        "value": "forest"
+      }
     },
     "distribution": {
-      "iterations": 3,
+      "iterations": 12,
       "x": {
         "distribution": "uniform",
-        "extent": [
-          0,
-          15
-        ]
+        "extent": [0, 15]
       },
       "y": {
         "distribution": "uniform",
-        "extent": [
-          -24,
-          48
-        ]
+        "extent": [-24, 48]
       },
       "z": {
         "distribution": "uniform",
-        "extent": [
-          0,
-          15
-        ]
+        "extent": [0, 15]
       }
     }
   }
