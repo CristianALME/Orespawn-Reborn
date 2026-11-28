@@ -1,4 +1,49 @@
+
 tile.orespawn:general_forge.name=Forja general
 tile.orespawn:weaponsmith_table.name=Mesa de armero
 tile.orespawn:armor_station.name=Mesa de armaduras
 tile.orespawn:arcane_altar.name=Altar arcano
+
+tile.orespawn:rose_quartz_ore.name=Mineral de cuarzo rosa
+tile.orespawn:fluorite_ore.name=Mineral de fluorita
+tile.orespawn:malachite_ore.name=Mineral de malaquita
+tile.orespawn:jade_ore.name=Mineral de jade
+tile.orespawn:topaz_ore.name=Mineral de topacio
+tile.orespawn:mithril_ore.name=Mineral de mithril
+tile.orespawn:sapphire_ore.name=Mineral de zafiro
+tile.orespawn:ruby_ore.name=Mineral de rubí
+tile.orespawn:aquamarine_ore.name=Mineral de aguamarina
+tile.orespawn:alexandrite_ore.name=Mineral de alejandrita
+tile.orespawn:black_opal_ore.name=Mineral de ópalo negro
+tile.orespawn:adamantium_ore.name=Mineral de adamantium
+
+item.orespawn:rose_quartz=Cuarzo rosa
+item.orespawn:fluorite=Fluorita
+item.orespawn:malachite=Malaquita
+item.orespawn:jade=Jade
+item.orespawn:topaz=Topacio
+item.orespawn:mithril_ingot=Lingote de mithril
+item.orespawn:sapphire=Zafiro
+item.orespawn:ruby=Rubí
+item.orespawn:aquamarine=Aguamarina
+item.orespawn:alexandrite=Alejandrita
+item.orespawn:black_opal=Ópalo negro
+item.orespawn:adamantium_ingot=Lingote de adamantium
+item.orespawn:vibranium_ingot=Lingote de vibranium
+item.orespawn:void_crystal=Cristal del Vacío
+item.orespawn:chaos_material=Material del Caos
+item.orespawn:raw_mithril=Mithril en bruto
+item.orespawn:raw_adamantium=Adamantium en bruto
+
+tile.orespawn:rose_quartz_ore.name=Mineral de cuarzo rosa
+tile.orespawn:fluorite_ore.name=Mineral de fluorita
+tile.orespawn:malachite_ore.name=Mineral de malaquita
+tile.orespawn:jade_ore.name=Mineral de jade
+tile.orespawn:topaz_ore.name=Mineral de topacio
+tile.orespawn:mithril_ore.name=Mineral de mithril
+tile.orespawn:sapphire_ore.name=Mineral de zafiro
+tile.orespawn:ruby_ore.name=Mineral de rubí
+tile.orespawn:aquamarine_ore.name=Mineral de aguamarina
+tile.orespawn:alexandrite_ore.name=Mineral de alejandrita
+tile.orespawn:black_opal_ore.name=Mineral de ópalo negro
+tile.orespawn:adamantium_ore.name=Mineral de adamantium

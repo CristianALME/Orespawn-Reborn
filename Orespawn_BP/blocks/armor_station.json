@@ -8,6 +8,7 @@
       }
     },
     "components": {
+      "minecraft:display_name":"tile.orespawn:armor_station.name",
       "minecraft:geometry": "geometry.orespawn.armor_station",
       "minecraft:material_instances": {
         "*": {

@@ -8,6 +8,7 @@
       }
     },
     "components": {
+      "minecraft:display_name":"tile.orespawn:general_forge.name",
       "minecraft:geometry": "geometry.orespawn.general_forge",
       "minecraft:material_instances": {
         "*": {

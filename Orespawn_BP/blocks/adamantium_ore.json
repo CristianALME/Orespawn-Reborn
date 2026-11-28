@@ -8,6 +8,7 @@
       }
     },
     "components": {
+      "minecraft:display_name":"tile.orespawn:adamantium_ore.name",
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:material_instances": {
         "*": {

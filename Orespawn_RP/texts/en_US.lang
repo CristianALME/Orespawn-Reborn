@@ -1,4 +1,49 @@
+
 tile.orespawn:general_forge.name=General Forge
 tile.orespawn:weaponsmith_table.name=Weaponsmith Table
 tile.orespawn:armor_station.name=Armor Station
 tile.orespawn:arcane_altar.name=Arcane Altar
+
+tile.orespawn:rose_quartz_ore.name=Rose Quartz Ore
+tile.orespawn:fluorite_ore.name=Fluorite Ore
+tile.orespawn:malachite_ore.name=Malachite Ore
+tile.orespawn:jade_ore.name=Jade Ore
+tile.orespawn:topaz_ore.name=Topaz Ore
+tile.orespawn:mithril_ore.name=Mithril Ore
+tile.orespawn:sapphire_ore.name=Sapphire Ore
+tile.orespawn:ruby_ore.name=Ruby Ore
+tile.orespawn:aquamarine_ore.name=Aquamarine Ore
+tile.orespawn:alexandrite_ore.name=Alexandrite Ore
+tile.orespawn:black_opal_ore.name=Black Opal Ore
+tile.orespawn:adamantium_ore.name=Adamantium Ore
+
+item.orespawn:rose_quartz=Rose Quartz
+item.orespawn:fluorite=Fluorite
+item.orespawn:malachite=Malachite
+item.orespawn:jade=Jade
+item.orespawn:topaz=Topaz
+item.orespawn:mithril_ingot=Mithril Ingot
+item.orespawn:sapphire=Sapphire
+item.orespawn:ruby=Ruby
+item.orespawn:aquamarine=Aquamarine
+item.orespawn:alexandrite=Alexandrite
+item.orespawn:black_opal=Black Opal
+item.orespawn:adamantium_ingot=Adamantium Ingot
+item.orespawn:vibranium_ingot=Vibranium Ingot
+item.orespawn:void_crystal=Void Crystal
+item.orespawn:chaos_material=Chaos Material
+item.orespawn:raw_mithril=Raw Mithril
+item.orespawn:raw_adamantium=Raw Adamantium
+
+tile.orespawn:rose_quartz_ore.name=Rose Quartz Ore
+tile.orespawn:fluorite_ore.name=Fluorite Ore
+tile.orespawn:malachite_ore.name=Malachite Ore
+tile.orespawn:jade_ore.name=Jade Ore
+tile.orespawn:topaz_ore.name=Topaz Ore
+tile.orespawn:mithril_ore.name=Mithril Ore
+tile.orespawn:sapphire_ore.name=Sapphire Ore
+tile.orespawn:ruby_ore.name=Ruby Ore
+tile.orespawn:aquamarine_ore.name=Aquamarine Ore
+tile.orespawn:alexandrite_ore.name=Alexandrite Ore
+tile.orespawn:black_opal_ore.name=Black Opal Ore
+tile.orespawn:adamantium_ore.name=Adamantium Ore

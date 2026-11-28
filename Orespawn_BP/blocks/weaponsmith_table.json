@@ -8,6 +8,7 @@
       }
     },
     "components": {
+      "minecraft:display_name":"tile.orespawn:weaponsmith_table.name",
       "minecraft:geometry": "geometry.orespawn.weaponsmith_table",
       "minecraft:material_instances": {
         "*": {
